@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/service.css" />
+    <link rel="shortcut icon" href="../img/indialogo.jpg" type="image/x-icon" />
+    <title>Package | Services - Tourism Management System</title>
+    <style>
+      .box-cust 
+      {
+        height: 450px;
+        width: 80%;
+        margin-top: -50px;
+      }
+      .styled-table {
+        border-collapse: collapse;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        border-collapse: collapse;
+        width: 800px;
+        height: 300px;
+        border: 1px solid #bdc3c7;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),
+          -1px -1px 8px rgba(0, 0, 0, 0.2);
+          align:center;
+      }
+      .city 
+      {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .city img {
+        width: 250px;
+        height: 200px;
+        margin: 10px;
+        filter: contrast(100%);
+        border-radius: 5px;
+      }
+      .city img:hover {
+        filter: contrast(130%);
+        transform: scale(1.01);
+      }
+      .caption {
+        position: relative;
+        bottom: 80px;
+        font-size: 20px;
+        color:white;
+        font-weight: bold;
+        z-index: 999999;
+      }
+      .btn {
+        position: relative;
+        padding: 7px 20px;
+        cursor: pointer;
+        background: transparent;
+        border: 1px solid #fff;
+        bottom: 75px;
+        color: #fff;
+        text-decoration: none;
+        transition: 0.6s ease;
+        text-align: center;
+        border-radius: 5px;
+      }
+      .btn:hover{
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-left">
+       <a href="../services/visitingplaces.html"><div class="box-left"><h3> Visiting Places Info</h3></div></a>
+            <a href="../services/hotel_info.html"><div class="box-left"><h3> Hotel Info</h3></div></a>
+            <a href="../services/touristguide_info.html"><div class="box-left"><h3> Tourist guide reference info</h3></div></a>
+            <a href="../services/package_info.html"><div class="box-left"><h3> Packages</h3></div></a>
+            <a href="../services/booking.html"><div class="box-left"><h3>Book a tour</h3></div></a>
+            <a href="../services/my_booking_list.html"><div class="box-left"><h3>My Booking List</h3></div></a>
+      </div>
+
+      <div class="container-right">
+        <div class="box-right"><h1>Current Running Packages</h1></div>
+        <div class="content">
+          <div class="box-cust">
+            <table class="styled-table">
+              <tr style="background-color: purple; color: white;">
+                <th colspan="5"><h2>Current Tour Packages</h2></th>
+              </tr>
+              <tr style="background-color: green">
+                <th><h3>Destination </h3></th>
+                <th><h3>Package-id </h3></th>
+                <th><h3>Start Date </h3></th>
+                <th><h3>End Date </h3></th>
+                <th><h3>Visiting places </h3></th>
+              </tr>
+              
+              <tr style="border-bottom: 2px solid black">
+                <td>Agra</td>
+                <td>PKG-123</td>
+                <td>10-07-2022</td>
+                <td>16-07-2022</td>
+                <td><a href="../video/agra.html">View places in Agra</a></td>
+              </tr>
+
+              <tr style="border-bottom: 2px solid black">
+                <td>Delhi</td>
+                <td>PKG-234</td>
+                <td>20-07-2022</td>
+                <td>26-07-2022</td>
+                <td><a href="../video/delhi.html">View places in Delhi</a></td>
+              </tr>
+              <tr>
+                <td>Patna</td>
+                <td>PKG-432</td>
+                <td>12-08-2022</td>
+                <td>18-8-2022</td>
+                <td><a href="../video/patna.html">View places in Patna</a></td>
+              </tr>
+            </table>
+            <div class="city">
+              <div class="img-package">
+                <a href="../services/booking.html"
+                  ><img src="../img/a.jpg" alt="kerla image"
+                /></a>
+                <p class="caption">Delhi</p>
+                <button class="btn">Visit</button>
+              </div>
+              <div class="img-package">
+                <a href="../services/booking.html"
+                  ><img src="../img/b.jpg" alt="Delhi image"
+                /></a>
+                <p class="caption">Agra</p>
+                <button class="btn">Visit</button>
+              </div>
+              <div class="img-package">
+                <a href="../services/booking.html"
+                  ><img src="../img/c.jpg" alt="Patna image"/>
+              </a>
+                <p class="caption">Patna</p>
+                <button class="btn">Visit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

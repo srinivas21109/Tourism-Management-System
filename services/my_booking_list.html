@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/service.css">
+    <link rel="shortcut icon" href="../img/indialogo.jpg" type="image/x-icon" />
+    <title>Hotel Info | Services - Tourism Management System</title>
+    <style>
+        .box-cust{
+            height: 300px;
+            width: 400px;
+            
+        }
+        .box-cust h1{
+            margin-top: 100px;
+        }
+        form input[type="text"]{
+            padding: 10px 20px;
+            margin: 10px;
+            outline: none;
+            border-radius: 5px;
+        }
+        .submittxt{
+            padding: 10px 20px;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: 2px solid rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-left">
+            <a href="../services/customer_info.html"><div class="box-left"><h3> Customer Info</h3></div></a>
+            <a href="../services/hotel_info.html"><div class="box-left"><h3> Hotel Info</h3></div></a>
+            <a href="../services/touristguide_info.html"><div class="box-left"><h3> Tourist guide reference info</h3></div></a>
+            <a href="../services/package_info.html"><div class="box-left"><h3> Packages</h3></div></a>
+            <a href="../services/booking.html"><div class="box-left"><h3>Book a tour</h3></div></a>
+            <a href="../services/my_booking_list.html"><div class="box-left"><h3>My Booking List</h3></div></a>
+   
+        </div>
+
+        <div class="container-right">
+            <div class="box-right"><h1>Access booking list Details</h1></div>
+            <div class="content">
+                <div class="box-cust">
+                    <h1>customer Id</h1>
+                    <form action="../NewServlet3" method="post">
+                        <input type="text" name="custid" id="customer_id" class="inputtext" placeholder="Enter hotel customer id"><br>
+                        <input type="submit" value="Search" id="submit" class="submittxt">
+                    </form>
+                </div>
+            </div>     
+        </div>
+        
+    </div>
+</body>
+</html>

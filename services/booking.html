@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/service.css" />
+    <title>booking | Services - Tourism Management System</title>
+    <style>
+      .background-booking{
+        background: rgb(0, 0, 0, 0.7) url(../img/2.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+        background-position: center;
+        width: 100%;
+        height: 89.2%;
+      }
+      .box-cust {
+        height: 600px;
+        width: 400px;
+      }
+      .box-cust h1 {
+        margin-top: 100px;
+      }
+      form input[type="text"] {
+        padding: 10px 20px;
+        margin: 20px;
+        outline: none;
+        border: 2px solid black;
+        color: black;
+        border-radius: 5px;
+        width: 300px;
+      }
+      form input[type="text"]::placeholder{
+        color: black;
+        font-weight: 500;
+      }
+      .submittxt {
+        width: 60%;
+        padding: 10px 20px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: bold;
+        background-color: green;
+        color: white;
+      }
+      .submittxt:hover {
+        background-color: rgb(6, 83, 6);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-left">
+        <a href="../services/customer_info.html"
+          ><div class="box-left"><h3>Customer Info</h3></div></a
+        >
+        <a href="../services/hotel_info.html"
+          ><div class="box-left"><h3>Hotel Info</h3></div></a
+        >
+        <a href="../services/touristguide_info.html"
+          ><div class="box-left"><h3>Tourist guide reference info</h3></div></a
+        >
+        <a href="../services/package_info.html"
+          ><div class="box-left"><h3>Packages</h3></div></a
+        >
+        <a href="../services/booking.html"
+          ><div class="box-left"><h3>Book a tour</h3></div></a
+        >
+        <a href="../services/my_booking_list.html"
+          ><div class="box-left"><h3>My Booking List</h3></div></a
+        >
+      </div>
+
+      <div class="container-right">
+        <div class="box-right"><h1>Tour Booking</h1></div>
+        <div class="content background-booking">
+          <div class="box-cust">
+            <form action="">
+              <input
+                type="text"
+                name="fullname"
+                id=""
+                placeholder="Enter Full Name"
+              />
+              <input
+                type="text"
+                name="last-name"
+                id=""
+                placeholder="Enter ID"
+              />
+              <input
+                type="text"
+                name="email"
+                id=""
+                placeholder="Enter Email"
+              />
+              
+              <input
+                type="text"
+                name="phonenumber"
+                id=""
+                placeholder="Enter Phone Number"
+              />
+              <input
+                type="text"
+                name="packageid"
+                id=""
+                placeholder="Enter packageId"
+              /><br />
+              <input type="submit" name="submit" id="" class="submittxt" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
