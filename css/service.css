@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    height: 100vh;
+    display: flex;
+}
+.container-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rebeccapurple;
+    width: 20%;
+    height: 100vh;
+}
+.container-left a{
+    text-decoration: none;
+    color: black;
+}
+.box-left{
+    height: 100px;
+    width: 200px;
+    background-color:black;
+    border: 2px solid black;
+    cursor: pointer;
+    margin:5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+.box-left:hover{
+    background-color: rgb(255, 0, 111);
+    color:black;
+}
+.container-right{
+    width: 80%;
+    background-color:white;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    height: 80%;
+    width: 80%;
+}
+.box-right{
+    height: 80px;
+    background-color: rgb(15, 109, 77);
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+.background{
+    background: rgba(0, 0, 0, .85) url(../img/harmandirsahib.jpg);
+    background-size: cover;
+        background-blend-mode: darken;
+        background-position: center;
+}
