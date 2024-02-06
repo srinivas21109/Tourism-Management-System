@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <title>Tourism Management System</title>
+
+  <style>
+    h1 {
+      margin-top: 0px;
+      margin-bottom: 10px;
+      font-family: sans-serif;
+      font-size: 6rem;
+      background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }   
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Verdana, sans-serif; 
+    }
+    .slideshow-container{
+      position: relative;
+      background: #f1f1f1f1;
+    }
+    .mySlides{
+      display: none;
+      text-align: center;
+    
+    }
+    .mySlides img{
+      height: 763px;
+    }
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -30px;
+      padding: 16px;
+      color: #888;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    .next {
+      position: absolute;
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+      color: white;
+    }
+    .dot-container {
+        text-align: center;
+        
+    }
+    .dot {
+      position: relative;
+      cursor: pointer;
+      top: -130px;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: white;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+  }
+    .active, .dot:hover {
+      background-color: purple;
+    }
+    q{
+      font-style: italic;
+    }
+    .author{
+      color: cornflowerblue;
+    }
+    .footer{
+      display: flex;
+      justify-content:center;
+      height: 59px;
+      align-items: center;
+      background-color: rgb(44, 42, 40);
+      color: white;
+      font-size: 12px;
+      position: fixed;
+      bottom: 0px;
+      width: 100%;
+  }
+  .header{
+    position: fixed;
+    top: 180px;
+    margin: 0 10%;
+    text-align: center;
+    color: rebeccapurple;
+    font-size: 80px;
+    font-weight: bold;
+  }
+  .sign{
+    position: fixed;
+    bottom: 300px;
+   margin: 0% 42%;
+  }
+  .btn {
+    color: white;
+    letter-spacing: .1rem;
+    background-color: green;
+    padding: 8px 28px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid white;
+    box-shadow: #777;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.btn:hover{
+    /* border: 2px solid rgb(72, 68, 72); */
+    background-color: rgb(5, 37, 5);
+    
+}
+</style>
+
+</head>
+<body>
+  <div class="slideshow-container">
+    <div class="header">
+    <h1>Tourism Management System</h1>
+    </div>
+    <div class="mySlides"> 
+      <img src="img/1.jpg" style="width: 100%;">
+    </div>
+    
+    <div class="mySlides">
+      <img src="img/2.jpg" style="width: 100%;">
+    </div>
+    
+    <div class="mySlides">
+      <img src="img/3.jpg" style="width: 100%;">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <div class="sign">
+      <a href="registration.html"><button class="btn">SignUp</button></a>
+      <a href="login.html"><button class="btn">Login</button></a>
+        
+        
+    </div>
+    </div>
+   
+    <section class="footer" id="footer">
+        <p1> Copyright &copy; 2022 |&nbsp; </p1>
+        <p2>
+          Made with <i class="fa fa-heart" style="color: red"></i>
+          by Team-9.
+        </p2>
+    </section>
+    <!-- -----------JavaScript code------ -->
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+    </script>
+</body>
+</html>
+

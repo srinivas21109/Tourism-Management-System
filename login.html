@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        function preventBack(){window.history.forward()};
+        setTimeout("preventBack()",0);
+        window.onunload=function(){null};
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="img/titlelogo.jpg" type="image/x-icon">
+    <title>Login | Tourism management - We provide best service in India.</title>
+    <script src="https://kit.fontawesome.com/cdf270f348.js" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <!-- Header part -->
+    <nav class="navbar background">
+        <div class="nav-right">
+            <h1 color="white">Tourist management System</h1>
+        </div>
+    </nav>
+    <!-- Login page content -->
+    <div class="container background-login">
+
+        <form action="index.html" method="post" class="login-box" name="form" onsubmit="return validation()">
+            <p style="color:red; font-family:Verdana, Geneva, Tahoma, sans-serif;">Please Enter <br> Valid Username and password!</p>
+                <!-- <img src="../img/admin.jpg" alt="admin"> -->
+                <h1>Login Here</h1>
+                <div class="sec">
+                    <i class="fa fa-envelope-o"></i>
+                    <input type="text" name="email"  value="" placeholder="Enter your Email" onkeydown="validation()" required>
+                    <span id="message" style="color:red; font-family:Verdana, Geneva, Tahoma, sans-serif;"></span>
+                </div>
+                <div class="sec">
+                    <i class="fa fa-key"></i>
+                    <input type="password" name="password"  placeholder="Enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                </div>
+                <a class="already" href="registration.html">If you don't have an account?</a>
+                <input  type="submit" value="Login" class="btn btn-sign-in">
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <section class="footer" id="footer">
+        <p1>
+            Copyright &copy; 2022 |&nbsp;
+        </p1>
+        <p2>
+           Made with  <i class="fa fa-heart" style="color:red ;"></i>
+            by Team-9.
+        </p2>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<style>
+      th{
+        color:white;
+        font-size:20px;
+      }
+    body {
+        padding: 0px;
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    table {
+
+        border-collapse: collapse;
+        width: 800px;
+        height: 200px;
+        border: 1px solid #bdc3c7;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+     .table {
+        display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:auto;
+    }
+    
+    tr {
+        transition: all .2s ease-in;
+        cursor: pointer;
+    }
+    
+    td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    #header {
+        background-color:rgb(255, 0, 93);
+        color: #fff;
+    }
+    
+    h1 
+    {
+        font-weight: 600;
+        text-align: center;
+        background-color: white;
+        color:black;
+        padding: 10px 0px;
+    }
+    tr:hover
+    {
+        background-color:grey;
+        transform: scale(1.1);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    @media only screen and (max-width: 768px) 
+    {
+        table
+         {
+            width: 90%;
+        }
+    } 
+   .heading
+	{
+		  display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:auto;
+	}
+    td{
+        text-align: center;
+    }
+</style>
+<body>
+<div class="heading">
+    <h1>Hotel details</h1>
+</div>
+<div class="table">
+    <table>
+    	<th><p style="text-align:center;"></p></th>		
+        <tr id="header">
+            <th>Hotel Name</th>
+            <th>Hotel location</th>
+            <th>hotel customer id</th>
+            <th>room_number</th> 
+        </tr>
+        <tr>
+            <td>fknefkn</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        
+    </table>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+ <script type = "text/javascript" >  
+    function preventBack() { window.history.backward(); }  
+    setTimeout("preventBack()",1000000000000);  
+    window.onunload = function () { null };  
+</script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/login.css" />
+  <link rel="shortcut icon" href="img/titlelogo.jpg" type="image/x-icon" />
+  <title>Tourism management - We provide best service in India.</title>
+  <script src="https://kit.fontawesome.com/cdf270f348.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="img/indialogo.jpg" type="image/x-icon" />
+</head>
+<body>
+  <!-- Header part -->
+  <section class="india background">
+    <nav class="navbar">
+      <ul class="nav-left">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.jpg" alt="logo" /></a>
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services/customer_info.html">Services</a></li>
+        <li><a href="#places">Places</a></li>
+        <li><a href="#help">Help</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="box">
+          <i class="fa fa-search" ></i>
+          <input type="text" name="search" id="search" placeholder="Here Search new place " />
+        </div>
+        <a href="start.html"><button class="btn">Logout</button></a>
+      </div>
+    </nav>
+    <div class="center">
+      <div class="txt">
+        <p>Be the part of this wonderful journey</p>
+        <h1>Incredible India!</h1>
+        <button class="btn-green"><a href="#">Explore now</a></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="places" id="places">
+    <h1>
+      You'll fall in <span style="color: red">love</span> with
+      <span style="color: green">India</span>
+    </h1>
+    <p>Explore India from Kashmir to kanyakumari</p>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="img">
+          <img src="img/Mahabodhi.jpg" alt="img1">
+          <h4>Mahabodhi Temple</h4>
+          <p>Bodh Gaya</p>
+        </div>
+
+        <div class="img">
+          <img src="img/tajmahal.jpg" alt="img1">
+          <h4>Taj Mahal</h4>
+          <p>Agra</p>
+        </div>
+
+        <div class="img">
+          <img src="img/trupti.jpg" alt="img1">
+          <h4>Tirupati</h4>
+          <p>Andhra Pradesh</p>
+        </div>
+
+        <div class="img">
+          <img src="img/gangariver.jpg" alt="img1">
+          <h4>Ganga River</h4>
+          <p>Bihar</p>
+        </div>
+
+      </div>
+
+      <div class="mySlides fade">
+        <div class="img">
+          <img src="img/mehrangarh.jpg" alt="img1">
+          <h4>Mehrangarh Fort</h4>
+          <p>Jodhpur</p>
+        </div>
+
+        <div class="img">
+          <img src="img/palmlined.jpg" alt="img1">
+          <h4>Palmlined Beach</h4>
+          <p>Goa</p>
+        </div>
+
+        <div class="img">
+          <img src="img/meccamasjid.jpg" alt="img1">
+          <h4>Mecca Masjid</h4>
+          <p>Hydrabad</p>
+        </div>
+        
+        <div class="img">
+          <img src="img/thegatewayofindia.jpg" alt="img1">
+          <h4>The Gate of India</h4>
+          <p>Mumbai</p>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="img">
+          <img src="img/goldencity.jpg" alt="img1">
+          <h4>The Golden City</h4>
+          <p>Jaisalmer</p>
+        </div>
+
+        <div class="img">
+          <img src="img/harmandirsahib.jpg" alt="img1">
+          <h4>Harmandir Sahib</h4>
+          <p>Amritsar</p>
+        </div>
+
+        <div class="img">
+          <img src="img/redfort.jpg" alt="img1">
+          <h4>The Red Fort</h4>
+          <p>New Delhi</p>
+        </div>
+        
+        <div class="img">
+          <img src="img/amerfort.jpg" alt="img1">
+          <h4>Amer Fort</h4>
+          <p>Jaipur</p>
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+  </section>
+
+  <!-- contact-----------------------------section -->
+
+  <section class="help background-call" id="help">
+    <div class="contact">
+      <h1><span style="color: green">Contact</span> Us</h1>
+      <p>View your thread of messages with our support team.</p>
+      <form action="#" class="myform">
+        <input type="text" name="name" id="name" placeholder="Enter your name" required /><br />
+        <input type="text" name="email" id="email" placeholder="Enter your email address" required /><br />
+        <input type="text" name="number" id="number" placeholder="Enter your mobile number" required /><br />
+        <!-- <input type="text-area" name="message" id="message" placeholder="Type your problem"><br> -->
+        <textarea name="message" id="message" placeholder="Type your problem" cols="30" rows="5"></textarea><br />
+        <input type="submit" name="submit" id="submit" class="btn"/>
+      </form>
+    </div>
+  </section>
+
+  <section class="footer" id="footer">
+    <p1> Copyright &copy; 2022 |&nbsp; </p1>
+    <p2>
+      Made with <i class="fa fa-heart" style="color: red"></i>
+      by Team-9.
+    </p2>
+
+    <a href="https://wa.me/+917295990632" target="_blank" style="color: blue;" title="WhatsApp me..!"><img src="img/whatsappgif" alt="" class="whatsapp"></a>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
