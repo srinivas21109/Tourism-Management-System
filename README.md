@@ -7,3 +7,7 @@
 ![picture_6](https://github.com/srinivas21109/Tourism-Management-System/assets/119849011/1cf9de93-512f-4b0d-8dfb-9a9fee8e9580)
 ![picture_7](https://github.com/srinivas21109/Tourism-Management-System/assets/119849011/0a94198b-ed28-4170-8272-39ca9dc86714)
 ![picture_8](https://github.com/srinivas21109/Tourism-Management-System/assets/119849011/2d6c5146-04be-4391-b9eb-6505c994d215)
+
+Teammates:
+1. Srinivas: https://github.com/srinivas21109/
+2. Sanjeev Roy: https://github.com/isanjeevroy
