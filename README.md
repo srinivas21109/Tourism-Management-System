@@ -10,4 +10,4 @@
 
 Team members:
 1. Srinivas: https://github.com/srinivas21109/
-2. Sanjeev Roy: https://github.com/isanjeevroy
+2. Sanjeev: https://github.com/isanjeevroy
