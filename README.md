@@ -24,13 +24,15 @@ The registration form is prominently displayed, encouraging new users to sign up
 </ul>
 
 **Account Prompt** <br>
-Below the sign-up form, there's a prompt for users who might already have an account:
+Below the sign-up form, there's a prompt for users who might already have an account:<br>
 <b>If you already have an account?:</b> This question guides existing users to the appropriate action, which would typically be logging in instead of signing up again.
 <br>
 **call-to-Action Button** <br>
 <b>Sign Up:</b> A button for submitting the registration form. Once clicked, it will process the user's information and create a new account in the system.
 
 ![picture_2](https://github.com/srinivas21109/Tourism-Management-System/assets/119849011/dfe94322-2697-4d07-b193-5fbe6b242010)
+
+
 
 ![picture_3](https://github.com/srinivas21109/Tourism-Management-System/assets/119849011/c1b9ee7e-9baa-4734-a017-e4539e6dcd08)
 
