@@ -125,7 +125,7 @@ The form includes input fields for the following information:
 
 Overall, the below web page serves as a central point for users to book tours or travel packages within the Tourism Management System. By filling out the required information and submitting the form, users can initiate the booking process for their desired tour or package, facilitating their travel planning and management within the system.
 
-<br></br>
+
 ![picture_8](https://github.com/srinivas21109/Tourism-Management-System/assets/119849011/2d6c5146-04be-4391-b9eb-6505c994d215)
 
 <br></br>
