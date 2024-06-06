@@ -32,8 +32,7 @@ Below the sign-up form, there's a prompt for users who might already have an acc
 
 ![picture_2](https://github.com/srinivas21109/Tourism-Management-System/assets/119849011/dfe94322-2697-4d07-b193-5fbe6b242010)
 
-This webpage is designed as part of the "Tourism Management System" project, aimed at providing a platform for users to manage their travel and tourism activities efficiently. The main focus of this particular page is user login.
-
+ The main focus of below web page is user login.
 **Login Here**
 The login form is prominently displayed, encouraging existing users to access their accounts. The form includes the following fields:
 <ul>
