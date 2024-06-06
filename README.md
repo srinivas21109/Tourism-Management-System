@@ -124,7 +124,7 @@ The form includes input fields for the following information:
 <li><b>Submit Button:</b> At the bottom of the form, there is a prominent green "Submit" button. This button likely triggers the submission of the completed form, initiating the tour booking process.</li>
 
 Overall, the below web page serves as a central point for users to book tours or travel packages within the Tourism Management System. By filling out the required information and submitting the form, users can initiate the booking process for their desired tour or package, facilitating their travel planning and management within the system.
-
+</ul>
 
 ![picture_8](https://github.com/srinivas21109/Tourism-Management-System/assets/119849011/2d6c5146-04be-4391-b9eb-6505c994d215)
 
