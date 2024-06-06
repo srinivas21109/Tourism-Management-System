@@ -52,7 +52,8 @@ The login form is prominently displayed, encouraging existing users to access th
 
 ![picture_3](https://github.com/srinivas21109/Tourism-Management-System/assets/119849011/c1b9ee7e-9baa-4734-a017-e4539e6dcd08)
 
- The main focus of below web page is given below:
+The main focus of below web page is given below:
+ 
 <ul>
   
 <li><b>Navigation Menu:</b>
@@ -75,8 +76,9 @@ The second image showcases a carousel or gallery section displaying four famous 
 <br></br>
 
 ![picture_5](https://github.com/srinivas21109/Tourism-Management-System/assets/119849011/32954f4f-6e72-424b-ab69-0b3c4c57db3f)
- The main focus of below web page is given below:
 <br></br>
+ The main focus of below web page is given below:
+
 <ul>
   <li><b>"Contact Us" Section:</b>
 The presence of a "Contact Us" section suggests that users can initiate communication with the website's support team or tourism management representatives.This section includes input fields for users to enter their name and email address, indicating the possibility of creating a communication thread or thread-based support system. This feature enables users to seek assistance, ask questions, or provide feedback regarding their travel experiences or inquiries.</li>
