@@ -132,4 +132,4 @@ Overall, the below web page serves as a central point for users to book tours or
 <br></br>
 Team members:
 1. Srinivas: https://github.com/srinivas21109/
-2. Sanjeev Roy: https://github.com/isanjeevroy
+2. Sanjeev: https://github.com/isanjeevroy
